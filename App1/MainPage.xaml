@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout Background="black">
+        <StackLayout Padding="30" BackgroundColor="Black">
+            <Frame CornerRadius="20">
+                <StackLayout BackgroundColor="White" HeightRequest="100" >
+                    <Label x:Name="Storylabel" TextColor="Gray" Text="" FontSize="30" HorizontalOptions="End" VerticalOptions="EndAndExpand" />
+                    <Label x:Name="Mainlabel" TextColor="Black" Text="" FontSize="35" HorizontalOptions="End" VerticalOptions="End" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        <Grid BackgroundColor="Black">
+            <Button Text="Clear" x:Name="clear" Clicked="Button_ClickedClear" Grid.Row="0" Grid.Column="0" FontSize="23" CornerRadius="10"/>
+            <Button Text="Back" x:Name="back" Clicked="Button_ClickedBack" Grid.Row="0" Grid.Column="1" FontSize="23" CornerRadius="10"/>
+            <Button Text="%" x:Name="procent" Clicked="Button_ClickedProcent" Grid.Row="0" Grid.Column="2" FontSize="30" CornerRadius="10"/>
+            <Button Text="÷" x:Name="delenie" Clicked="Button_ClickedDelenie" Grid.Row="0" Grid.Column="3" FontSize="40" CornerRadius="10"/>
+            <Button Text="7" x:Name="seven" Clicked="Button_ClickedSeven" Grid.Row="1" Grid.Column="0" FontSize="30" CornerRadius="10"/>
+            <Button Text="8" x:Name="eight" Clicked="Button_ClickedEight" Grid.Row="1" Grid.Column="1" FontSize="30" CornerRadius="10"/>
+            <Button Text="9" x:Name="nine" Clicked="Button_ClickedNine" Grid.Row="1" Grid.Column="2" FontSize="30" CornerRadius="10"/>
+            <Button Text="X" x:Name="umnohit" Clicked="Button_ClickedUmnohit" Grid.Row="1" Grid.Column="3" FontSize="30" CornerRadius="10"/>
+            <Button Text="4" x:Name="four" Clicked="Button_ClickedFour" Grid.Row="2" Grid.Column="0" FontSize="30" CornerRadius="10"/>
+            <Button Text="5" x:Name="five" Clicked="Button_ClickedFive" Grid.Row="2" Grid.Column="1" FontSize="30" CornerRadius="10"/>
+            <Button Text="6" x:Name="six" Clicked="Button_ClickedSix" Grid.Row="2" Grid.Column="2" FontSize="30" CornerRadius="10"/>
+            <Button Text="-" x:Name="minus" Clicked="Button_ClickedMinus" Grid.Row="2" Grid.Column="3" FontSize="30" CornerRadius="10"/>
+            <Button Text="1" x:Name="one" Clicked="Button_ClickedOne" Grid.Row="3" Grid.Column="0" FontSize="30" CornerRadius="10"/>
+            <Button Text="2" x:Name="two" Clicked="Button_ClickedTwo" Grid.Row="3" Grid.Column="1" FontSize="30" CornerRadius="10"/>
+            <Button Text="3" x:Name="three" Clicked="Button_ClickedThree" Grid.Row="3" Grid.Column="2" FontSize="30" CornerRadius="10"/>
+            <Button Text="+" x:Name="plus" Clicked="Button_ClickedPlus" Grid.Row="3" Grid.Column="3" FontSize="30" CornerRadius="10"/>
+            <Button Text="0" x:Name="zero" Clicked="Button_ClickedZero" Grid.Row="4" Grid.Column="0"  FontSize="30" CornerRadius="10"/>
+            <Button Text="√" x:Name="coreni" Clicked="Button_ClickedCoreni" Grid.Row="4" Grid.Column="1"  FontSize="30" CornerRadius="10"/>
+            <Button Text="." x:Name="point" Clicked="Button_ClickedPoint" Grid.Row="4" Grid.Column="2" FontSize="45" CornerRadius="10"/>
+            <Button Text="=" x:Name="ravno" Clicked="Button_ClickedRAVNO" BackgroundColor="Orange" CornerRadius="10" FontSize="30"  Grid.Row="4" Grid.Column="3" HeightRequest="100"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
